@@ -32,21 +32,12 @@ public:
     double accel_true(int i, double dt);
 
 private:
-    // double dt_;
-    // double sigma_z_;
-    // double simTime_;
     Eigen::Vector3d x0_;
     std::mt19937 generator_;
 
     ModelConfig modelConfig_;
     SimConfig simConfig_;
     ICConfig icConfig_;
-    // Eigen::Matrix3d F_;
-    // Eigen::RowVector3d H_;
-    // Eigen::RowVector3d B_;
-    // Eigen::Matrix3d Q_;
-    // Eigen::Matrix3d L_;
-    // double R_;
 };
 
 #endif //ESTIMATION_LAB_SIMULATION_H

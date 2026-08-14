@@ -20,7 +20,6 @@ SimulationData Simulator::runSimulator() {
     double sigma_z = modelConfig_.sigma_z;
     double sigma_accel = modelConfig_.sigma_accel;
     double sigma_bias = modelConfig_.sigma_bias;
-    // auto Q = modelConfig_.Q;
     auto H = modelConfig_.H;
     auto B = modelConfig_.B;
     auto F = modelConfig_.F;
@@ -28,14 +27,6 @@ SimulationData Simulator::runSimulator() {
     // Extract Simulation Configuration Parameters
     auto dt = simConfig_.dt;
     auto simTime = simConfig_.simTime;
-
-    // Eigen::LLT<Eigen::Matrix3d> llt(Q);
-    // Eigen::Matrix3d L;
-    // if (llt.info() == Eigen::Success) {
-    //     L = llt.matrixL();
-    // } else {
-    //     throw std::runtime_error("llt.matrixL() failed");
-    // }
 
     // std::normal_distribution<double> std_noise(0.0, 1.0);
     std::normal_distribution<double> measurement_noise(0.0, sigma_z);
@@ -57,9 +48,6 @@ SimulationData Simulator::runSimulator() {
     auto xt = icConfig_.x0;
 
     for (int i = 0; i < N; i++) {
-        // Eigen::Vector3d Zeta;
-        // Zeta << std_noise(generator_), std_noise(generator_), std_noise(generator_);
-        // auto w = L * Zeta;
 
         // GENERATE MEASUREMENTS
         // (position)
