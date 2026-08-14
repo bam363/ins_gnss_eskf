@@ -56,7 +56,7 @@ MonteCarloResults MonteCarlo::run(ModelConfig& modelConfig, ICConfig& ICconfig, 
         // auto xh = estimator_runner_data.xh;
         // auto Ph = estimator_runner_data.Ph;
 
-        double nees = metrics.computeNEES(truth_data.truth,
+        double nees = metrics.computeNEES(truth_data.truthState,
                                             estimator_runner_data.xh,
                                             estimator_runner_data.Ph);
         trialMeanNEES.push_back(nees);
