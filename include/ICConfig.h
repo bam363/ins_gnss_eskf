@@ -8,9 +8,9 @@
 #include <Eigen/Dense>
 
 struct ICConfig {
-    Eigen::Vector2d x0;
-    Eigen::Matrix2d P0;
-    Eigen::Vector2d xh0;
+    Eigen::Vector3d x0;
+    Eigen::Matrix3d P0;
+    Eigen::Vector3d xh0;
 };
 
 #endif //ESTIMATION_LAB_ICCONFIG_H
