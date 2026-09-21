@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1dfadc4b-70cc-4678-aef7-cb4f02de56a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../EKF_attitude/include/ImuSimulator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EKF_attitude/include/InsMechanization.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EKF_attitude/include/VehicleSimulator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EKF_attitude/src/ImuSimulator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EKF_attitude/src/InsMechanization.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EKF_attitude/src/VehicleSimulator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/EstimatorRunnerEKF.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/ExtendedKalmanFilter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/ICConfigEKF.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/ModelConfigEKF.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/SimulatorEKF.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EstimatorRunnerEKF.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExtendedKalmanFilter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimulatorEKF.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KF_linear/.idea/KF_linear.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KF_linear/include/KalmanFilter.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KF_linear/include/Metrics.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KF_linear/src/KalmanFilter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KF_linear/src/Metrics.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KF_linear/src/MonteCarlo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/.idea/include.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EKF_range.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/EstimatorRunner.h" beforeDir="false" afterPath="$PROJECT_DIR$/../KF_linear/include/EstimatorRunner.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/ICConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/../KF_linear/include/ICConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/KalmanFilter.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/Metrics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/ModelConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/../KF_linear/include/ModelConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/MonteCarlo.h" beforeDir="false" afterPath="$PROJECT_DIR$/../KF_linear/include/MonteCarlo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/MonteCarloResult.h" beforeDir="false" afterPath="$PROJECT_DIR$/../KF_linear/include/MonteCarloResult.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/SimConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/../KF_linear/include/SimConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/Simulator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../KF_linear/include/Simulator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/EstimatorRunner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../KF_linear/src/EstimatorRunner.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/KalmanFilter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Metrics.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/MonteCarlo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Simulator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../KF_linear/src/Simulator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bam363&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bam363/drone_estimation.git&quot;,
+    &quot;accountId&quot;: &quot;688ec352-8b67-4867-a14e-84096c34a231&quot;
+  }
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="hBuX5cRs" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="2.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JFgdqwJyKaZIFJjCPo2sSL22Js" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/bam363/CLionProjects/estimation_lab/EKF_range/main.cpp&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SelectedDebugProfileService">{
+  &quot;profileIdByStamp&quot;: [
+    {
+      &quot;first&quot;: {
+        &quot;##RUN_CONFIGURATION##&quot;: &quot;CMake Application.EKF_range&quot;,
+        &quot;cmake&quot;: &quot;CMakeBuildProfile:Debug&quot;
+      },
+      &quot;second&quot;: &quot;e0c3650f-06f4-4139-8b2c-6d060faeb48a&quot;
+    }
+  ],
+  &quot;modificationCount&quot;: 2
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dfadc4b-70cc-4678-aef7-cb4f02de56a6" name="Changes" comment="" />
+      <created>1789262320128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789262320128</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+</project>

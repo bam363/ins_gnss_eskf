@@ -2,7 +2,7 @@
 // Created by Barin A. Moghimi on 8/10/26.
 //
 
-#include "Simulator.h"
+#include "../include/Simulator.h"
 
 Simulator::Simulator(const ICConfig& icConfig,
                      const ModelConfig& modelConfig,
@@ -12,7 +12,7 @@ Simulator::Simulator(const ICConfig& icConfig,
                        simConfig_(simConfig), generator_(generator)
 {}
 
-SimulationData Simulator::runSimulator() {
+Simulator::SimulationData Simulator::runSimulator() {
 
     SimulationData data;
 

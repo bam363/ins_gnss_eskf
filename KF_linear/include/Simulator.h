@@ -12,21 +12,20 @@
 #include "ModelConfig.h"
 #include "SimConfig.h"
 
-struct SimulationData {
-    std::vector<Eigen::Vector3d> truthState;
-    std::vector<double> positionMeasurements;
-    std::vector<double> accelMeasurements;
-    std::vector<double> biasState;
-    std::size_t N; // length of simulation
-};
-
-
 class Simulator {
 public:
     Simulator(const ICConfig& icconfig,
               const ModelConfig& modelConfig,
               const SimConfig& simconfig,
               std::mt19937 generator);
+
+    struct SimulationData {
+        std::vector<Eigen::Vector3d> truthState;
+        std::vector<double> positionMeasurements;
+        std::vector<double> accelMeasurements;
+        // std::vector<double> biasState;
+        std::size_t N; // length of simulation
+    };
 
     SimulationData runSimulator();
     double accel_true(int i, double dt);

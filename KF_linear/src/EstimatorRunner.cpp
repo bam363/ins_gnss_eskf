@@ -2,16 +2,17 @@
 // Created by Barin A. Moghimi on 8/10/26.
 //
 
-#include "EstimatorRunner.h"
+#include "../include/EstimatorRunner.h"
 
 // run estimator
-EstimatorRunnerData EstimatorRunner::runEstimator(KalmanFilter& filter, const SimulationData& data) {
+EstimatorRunnerData EstimatorRunner::runEstimator(KalmanFilter& filter, const Simulator::SimulationData& data) {
     EstimatorRunnerData result;
     auto N = data.N;
-    auto measurements = data.measurements;
-    std::vector<Eigen::Vector2d> xh;
+    auto z_pos = data.positionMeasurements;
+    auto z_accel = data.accelMeasurements;
+    std::vector<Eigen::Vector3d> xh;
     xh.reserve(N);
-    std::vector<Eigen::Matrix2d> Ph;
+    std::vector<Eigen::Matrix3d> Ph;
     Ph.reserve(N);
     std::vector<double> v;
     v.reserve(N);
@@ -22,12 +23,11 @@ EstimatorRunnerData EstimatorRunner::runEstimator(KalmanFilter& filter, const Si
 
         // Prediction
         if (j > 0) {
-            filter.predict();
+            filter.predict(z_accel[j-1]);
         }
 
         // Measurement Update
-        auto z = measurements[j];
-        filter.update(z);
+        filter.update(z_pos[j]);
 
         // Storage
         xh.push_back(filter.state());

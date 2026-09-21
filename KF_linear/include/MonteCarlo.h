@@ -10,14 +10,15 @@
 #include "ICConfig.h"
 #include "ModelConfig.h"
 #include "MonteCarloResult.h"
-#include "SimConfig.h"
+#include "../include/SimConfig.h"
 
 class MonteCarlo {
 
 public:
     MonteCarlo(std::size_t numTrials, unsigned int masterSeed);
 
-    MonteCarloResults run(ModelConfig& modelConfig, ICConfig& ICconfig, SimConfig& simConfig);
+    MonteCarloResults run(const ICConfig& icConfig, const ModelConfig& modelConfig1,
+                          const ModelConfig& modelConfig2, const SimConfig& simConfig);
 
 private:
     std::vector<unsigned int> trialSeeds_;

@@ -6,12 +6,12 @@
 #define ESTIMATION_LAB_ESTIMATORRUNNER_H
 
 #include "KalmanFilter.hpp"
-#include "Simulator.h"
+#include "../include/Simulator.h"
 #include <Eigen/Dense>
 
 struct EstimatorRunnerData {
-    std::vector<Eigen::Vector2d> xh;
-    std::vector<Eigen::Matrix2d> Ph;
+    std::vector<Eigen::Vector3d> xh;
+    std::vector<Eigen::Matrix3d> Ph;
     std::vector<double> v;
     std::vector<double> S;
 };
@@ -21,7 +21,7 @@ class EstimatorRunner {
 public:
     EstimatorRunner() = default;
 
-    static EstimatorRunnerData runEstimator(KalmanFilter& filter, const SimulationData& data);
+    static EstimatorRunnerData runEstimator(KalmanFilter& filter, const Simulator::SimulationData& data);
 
 private:
 
